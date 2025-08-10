@@ -78,3 +78,20 @@
 .button-container button:hover {
     background-color: #e55b5b;
 }
+
+.what-we-do h2 {
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.what-we-do p {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
