@@ -1,3 +1,10 @@
+.background {
+    background-image: url("C:\Users\user\Downloads\d1597894d79386c83b9b\images\headphones_hero_1.jpg");
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+}
+
 .logo {
     display: flex;
     flex-direction: column;

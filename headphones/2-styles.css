@@ -68,3 +68,29 @@
     font-size: 16px;
     line-height: 1.5;
 }
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+}
+
+.item p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.item.pentagone {
+    width: 100px;
+    height: 100px;
+    background-image: url('C:/Users/user/Downloads/d1597894d79386c83b9b/images/pentagone.png');
+    background-size: cover;
+    margin: 0 auto;
+}
