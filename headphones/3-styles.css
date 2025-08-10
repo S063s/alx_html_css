@@ -101,3 +101,52 @@
 .contact-form button:hover {
     background-color: #FF4040;
 }
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links a:hover, .footer-links a:active {
+    color: #FF6565;
+}
+
+.footer-logo {
+    margin-top: 10px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-icon {
+    margin-top: 10px;
+}
+
+.footer-icon img {
+    max-width: 30px;
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
