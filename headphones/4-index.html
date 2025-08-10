@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="3-styles.css">
+    <link rel="stylesheet" href="C:\Users\user\Downloads\7159d988278de54d859d\holberton_school-icon\style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\user\Downloads\d1597894d79386c83b9b\images\logo_headphones.png" alt="Headphones-logo">
+        </div>
+        <div class="container">
+            <h1 class="title">Our Results</h1>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="0-index.html">Home</a></li>
+                    <li><a href="1-index.html">What We Do</a></li>
+                    <li><a href="2-index.html">Our Results</a></li>
+                    <li><a href="3-index.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us through our contact form or via email.</p>
+    </section>
+
+    <form action="submit_form.php" method="post" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+    </header>
+</body>
+
+<footer>
+    <div class="container">
+        <div class="footer-logo">
+            <img src="C:\Users\user\Downloads\d1597894d79386c83b9b\images\logo_headphones.png" alt="Headphones-logo">
+        </div>
+        <div class="footer-icon">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAADBAACAQYHCAX/xAA/EAABAwICCAQEBQIFAwUAAAABAAIDBBEFIQYSEzFBUVJxBxQyMyJhgZEjQqGx0WLBJIKisvByg5IVFiVDc//EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A7Jsn9KJCCxxLxYc0ygVPtt7oL7VnWgPY5z3FrbgnIoach9tvZAvGxzXhzhYBH2zOoKT+05KICygyO1mC4tZV2bx+XijU3t/VFduPZBTaM60OY7S2p8Vt9kBGpvW5APZSdJR2yMa0NLrEcCjJGT3HIGJHNe0ta655IOzdn8JUg90JtAGJwjbqvOqeSs6RmqbOuUGp936IbfU3ugtsn9KJD+GSZPh5JlL1f5UBNqzrQHRuJLrHNDTkfob2CAEbSyQOeLNA3/NG2sfWFif23fRKFAaYOkfdjbjmqtjcHAuabBHpvb+qu/0nsgrtY+sKbVnWk/4WUBfMP5NWWkznVeLWzyQUam9bjwsgt5dvN33VDK6M6jQLDLNM3HNJy+47ugIJDKdRwaAeSt5dp4u+6FD7re6buOaBdzjAdRtiN+axt3nIgWOSlSfxPohDh8igY8s3qcsOGwzbmT1I9xzQanPVsgp5h/JqsIWyWeSbuzyQE3Efw2fIBBQxCIa4JNuap5h3SEac/hOHNK2PIoDMZthruyO7JZ2DRnc5ZrNNlFnzRHEWOfBAuKh1r2b+qy38f15auYsgDdZHpt7uyC3lm83fdU2xYS0AfDkmbjmk3g678j6igIHmUhhFgeSt5dvN33Q4Pdb9SmrjmgXc8wnUaARvzWBO5xAIbnksT5yEjkFRnqHdAfy7Txcp5dvN33RgRzUuOaCINTkxtshdTzDekrDjt7NbkRnmgB9SnIvbb2QfLu6grCYRjUIJIyQXn9o3SlzaxJR3SiUagBBPErHl3dQQXp84/qiEZHLNCa7YDVdmd+ShqActU55IF/qUam9Thv7qeXd1BRv4BJOd9wCBhJP9x2Z7K1XiVNRQmesljp4RvkleGj9Vp2IeJuiVJIbYmag3t/honSZ9wg3KDOTfwTVguWjxm0fjkOpR4i9o3HZgX/VOUvjLoxKQJ2V1Of6oC79kG+1HufRDbk5vdfJwzSzAMclDcOxamfIR7bnarvsV9rYkWJIyKBkbkCqNtVW8w3pKo/8AHI1ctXmgD905Hm0E8Qg+Xd1BWEoZ8JB+HJBmcDZnhZLX+ZRy8TDUAsTzVfLO6ggJT5sz5oknoPZBa8Q/ARfjksmcO+HVOeSBfuSVPujeXd1BTy7uoIA/f7ItN6yUbYx9IQ5QI2AxjVJOdkB0nJ7j+6m0f1FMMY17A5zQSQgXi91tk6gyMaxhc1oBG4oG0f1FBep9z6IQ4d8kxC0SNu8XN95Q62amoaWaqqnNighaXPe7cAOKAtRUw00L5qiRsUTBdz3mwaO647pr4vuMjqPRNjLNd8VdM24P/wCbePd2XyO9al4g6eVelVU6npzJT4PG4iOE5GbP1P8AnlkOAK07iimcRxGuxSoNRiVZPVyu3umfrfpuCWUURU73+hWABax3LKiDAAFiB8Q3Hkts0Z8Q9I9HSxkVV5ykba9LVkuGrfPVdvabdx8lqiiGPSmiGmWE6VQnyUjoatgvLSzEa7fmLeofMLaabMuXkelqqijqY6qjmfBUxG8c0brOae6794caex6T0rqSrDYMWgbeQNFmzt62/wBwiOhpGTJ5PM3Wdo/qKYjjaWC4vcXRAYPdA5BNoErQxpc0WI4oO1f1FBaottPoqN9be6PCxr2XeLm6s6JgBIaLhARZSW0f1FTaP6igZ2zOpDlIkaGx/EQc0BGpvcPZBTZP6D90dj2sYA51iMiERJy+47ugPI5sjC1hzKCY5Oj9VIfdZ3TYQBids26rzqkncVxDxo0yOIYg/R2gl/wdKR5t7T7kvR2bl9ey6vpli7MBwOuxI214YDsweLzk0fdeWnyPlkfLK4ukkcXvceLibk/dBmGOWaRkUUb5JHGzWMaXOceQAvmqWyJ4XW7+DNNHVae0hmAdsIZZWA9QFh/uP2W4+JXhgauSXGNG4h5g3dNRizRIeLmf1fLiiuLqLMjXRyOila6OVjtVzHNIc08iDuWBvQYJDQSdwXRNEfCbFcbpmVmKz/8AplNILxxlmtM8c7H0/XP5BL+Dmj0WN6UeZqmB9Ph7RKWkb33s2/bevRIGZQciq/A+k2LvJY5VNmt8JniY5v1AAP6rmOlOi+K6K1gp8XhDWv8AanZnHKPkTx+RzXqyyXq6SmqmsbVU8UwY4PYJGB2q4cRdEeUarB6ujw6GtrYzTiodamilaWyTNG94acw3dmd5KBh9fU4ZXQV2HzGKpgfrRvHA8jzHAhdL8S9H531dTpBpXibKaJx2VDh9L8cjmjcATkCd5y+V1ywXAF7X490V6h0Sx2HSfAKbFKVtjINWaIG5ikHqaex3cxYrYGSNa0AnMCxXCfAzHTQ6QTYPK60FczXZc7pGj+4/Zduf7j/+oog0j2vaWtNydwQtk/ocswe63sU2gDE4Rss82PELLpGOBAdmUGo909gqN9be6DIif0FZ2T+g/dNhZsgB5dvUVhzdh8Tcycs0wgVObG2zzQU8w7kFYRB/xkkF2aBY8inIfbb2QCdEIxrtJJCqKh1r6oRan2XWS1jfcUHMPHvE3NwnDMPDrOqJ3SPb1NYP5cFxY/NdK8d53u0iwqB3oionOH+Z+f8AtC5qivs6GY43RzSigxSS4hicWTW6HZH97r1NBNFU07J4HtkikaHMe3MEHcvN/hVUUEeljaTFoYJqOvhdTOZOzWYXEhzbg5b22+q9E4XhlHhNIKTD4RBTtJLYmk6rb8AOA+SI+PpToRgWlA18RpdWqAs2qh+CQfIniPkVzPF/BXEoXF2EYlBURcGTsLH/AHGS7kog5j4RaJY3otW4k3GKaJkdQxuo+KUPzB3HIcD+i6coogiqd6shVMrIIZJpDqsjYXE8gAg8t6cYtW4xpRiMmITOk2FTLTwt3NjY15AAH0ueZXwkSpqTW1U9W71VEr5j/mcXf3Q0ahzBq52F4zQ4g1+oaedkhPJt/i/03XrJkbZGiQONni+7mvHs4vFIP6CvW2jVQ6r0dw2ok9UtJG49y0IlOOYIgHtzIyVfMP5BEnN4zZK2PIohhrRMNYkg7lkwtaNbWOWatT5Mz5q7/SeyBfzDuACnmH8ghWPI7lLHkUEz5/qi0x/EPZTy7v6VloMB1nnWvyQMb99knKTtHC+V0bzDekqpiMhLwRZ2digpF6xmm0vszF8ZtYbwFbzDekoOG+P0Dm6UYdMfRJROaP8AK/P/AHLmV7rtPj9Q+YwnDMUjYb087oXu5NeP5DVxY7yjUQEhwc0lpbmCDYg8CPmu8eGmmmPYnRU0OK4NVVUDrsjxOlDXMNjY7QXFiLd/kuDrd/DDTf8A9p10tPWiSTC6lwMgaLmF/WBytvHyRK9HBZSeF4pQ4tSMq8Nq4aqnf6ZInXCcREUUUQRaJ4yY63CdDamljcPNYmDSxtv+U+s/+N/qQt0rqqChpZaqrmZDBC0vkkebBrQLkleZfEDSp+luPOq267KOIGOmjdlZvURzKDWuCiiiNKTG0Mh/pP7L1ZgMD6TAcOp3A68dLEw58mgFeYcFoXYpjFBh7RreYqGMLbb263xfoCvWDaciNrW2sAAOyJWID+K3sU3lyS7WGF2uTcWzVvMN6SiB1BO0tfKyoy+u3PjzRXMMx1wRysVjYOada4FkDKn2QfMDpKnmW9JQGug1PpHdC2snUVaL8R5D87BAJOQ+23ssbKPpCA972vcGusAUB6j2nJS90SN73PDXOuCj7Jl/SEHw9KMGGP6MYhhuQfNGdm6254zafuvLcsT4JXxStLZI3Fr2neHA5j7r11MTG4Nj+Eb1xDxk0SNHXu0ioIf8LVOArGsHty9fZ2V+RF+KLHP8IwmuxqpNLhsUcs4AIjdK1hfe+7WIvuW44b4Q6U1cjfNspKKM73SSa5H+UfytBy4bxmPkVuGj/iZpPgjGxCsFdTt3RVoLyOz7633uhXWtCvDHCNGallfI51ZiIGUzxYMP9Lf5W93XHaHxxjLP/kMBkDhuNNO14/1Wsmn+OOHajtngdeXWyBfGBf8A8kR1i+S+fjmNYbgdEazFaqOnhG4vObjyA4lcTxbxnx+qYWYbQ0mHg/ncTM8dtw/Qrn+JYjXYtVGqxSsnq5z+ed+tYchfID5AWQbb4i+IFTpZL5KlD6fCI3giI5OmcNxf8uIC0lT9lEVFAomcMoanFMQgoaGLbVM7wyNnC/EnkOJKK3/wQwV1Zjs+MSC8FFGWMJGRkd/cD913uP0N7L4mh+jVNozo/SYZAGvdG3WmktYySH1O/wCcABwX03SPDnAOyBIRkaf23fRK/wAosbnPeGuNwQbhG2MfQEFab2/qiP8ASeyXlc5j9VjrADcqiSQuALsroKfwom9kw/lCmxj6QgW2b+kokQMTyZMgQmLINV6W90F9tH1BLvY5z3ODbgnIqibh9tvZACNrmPDnCzRvKPto9+sM1ioyhclCgNKDI7WYLi1rhAqqJlXTS01VC2WCVpZIx4yc0703Te39UR249kHmvxA0EqtFasz0odUYPITs5xnsv6X/ANjxWnX5b160mhiqIXQzxskie3VexwuHDkQuUaX+EL3ukrNE3tzJc+gmfYf9t3Ds7L5jciuR91jLkm8Twyvwmd0GJ0U1LK3e2Zpb9juP0KV4AoIosZc1OyKyplxyUGbw3idw5ratGvD3SHSF7HxUvlKMkXqqppaLcdVvqcfsPmENa1S01RW1MVLRwST1Ep1Y4oxdzivQPhloIzRSmdW4jqyYrO0Bzt7YW9Df7nivr6GaDYRonCTRsdNWPFpKuaxe75DpHyC2Gpy1UQQTRgeoIDmOL3FrSQShpyP0N7IgEbTG5rniwsbo22j6gsVHtH6JQoDStL33aLgjeqtjeCCWnIo1N7f1RHj4D2QVErBvcFNtH1BKcuyiAvmXcmrIcZzYiw370HNFpidY5Ed0F/Lt5lVMpjJYALDIXTCTk9x3dBfamX4HAZ8kTy7eZQYvcbcpv6oF3PMB1G2I35rAne7KwUqPcyPBCG8ZE5oGPLt5lYLRAQW5k5ZowP8Ay6FU7m3QKVsVPXQOhraaGeIjNkrdYfqtZrvC3RHEAHnDnU7jn/hpXR59gtpz5pyOxY3Pcg5jN4LaPglza7EWjg0SNNvuESl8IdF4SNt56oI66gt/ZdIm9s2KV42H7IPmYLoho/hVpMPwumhkH/2Bgc77lfcMIvrEuKxTEbO19xRScjbkgXFQ6wyarNO39QtbcQgD5FGpiATfegt5ccyqbZzCWgCwNt6ZuOaTf63/AMICB5lIY4Cx5FW8u3mUOD3RrZZZZJrLmgXdIYTqtAtvzUE7nHVIGeSrP7mW+yo3J7b8+SA/l233lTy45lG3qfVBmwQKn0N7qeYbyd+iw4if4W3Fs80AE5D7beyD5d3NqyJRGNQgktyyQEn9l3ZKHJHMgm+ABwuq+XfxLUBKb2/qiuAscuCA12xGo4XO/JZNQ05arrnJAvdHpvU5Y8u7gWhRv4Hqz1uSBmwSMnuORvMt6XfosGEu+JpHxc0FIPdHZNpcRmI67iCByVvMt4tcEA6j3LfJUbk5tss0Ut2512m3DNTYEG5IyzQMWHJAqstWynmW8nLBInyFwRnmgCnI82AnkEDy7h+ZqsJms+DVd8OSC8/tlKJgyCX8NoIvxKr5d3U1AWnzjzzzV3+k9kEPEI1CCTvyUM7XfDquF8kAN5z5KIop3XyLVny7upqAJ3ItL7juyNsY+kKk1owHMFickBik5Pcd3U2r+oo7I2vaHOaCSMygDD7re/8AZNoUkbWNLmgAhA2j+ooL1PufRCG8d0xEBI27xc34q7omW9IQEQKn8qFtX8yrw/iEh+dt10AU5F7bOwWNjH0hLue5riA6wHAIGJ/Zd2SiLG8vfqvNxyRtkwflCCtL7X1RXbj2S0jjG7VZkN+SqJX6wuSb5IKD0hGpsi7sEXYx9IQ5rR6uqLX5IGEk/wBx/wD1FZ2r+oo7Y2OAcW5nMoAwe636ptBka2Npc1oBG5A2r+ooLVHunsqN9be6PG1sjdZwudys6JgBIaLhAQLKS2r77ys7V/UUH//Z" alt="Twitter-logo">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAaVBMVEX///8DBwgAAADW19c3Nzc7PDvw8fDk5eX39/eVlZVHR0dLS0va2trf398mJiatra0SEhICAQZbW1vExMRQUFDr6+uZm5rQ0NCAgIBwcHCgoaBCQkItLS2lp6Z3eXi1tbWKioodHR1jY2MpzSlwAAADwklEQVR4nO3di5aqIBQG4MRr5aXSUlMzff+HPNWcM2fNTExbQhDW/z8A9SWaIG5WKwRBEARBEARBEARBEARBEARBkM8EYezOmyRQ4YiC7uAwFSm6IJqX4l7un+MoyP1z6nJGTnJVJPkEXZOZKFFeKKU8NNt8loMT9b5iyoPjZXNoek+D5aZpM/kWt9ViuWnSUrYl0tHH/mpa2R3tqs1y01RyLYHq69hXzVEqRtaB2X/9l6diaqkYCQfm8e13Q+p5zeYW30uHHZHEmMyzJnf2b0sc/1BX63Ofl3ESJqGbZ+d1VdeFP7zUMNZLxLzZyxgbDtU5f9bzozjPxtcNyLwEHN7BMNZc++SXjpLtXjXPComY5g0Ma7oXN78EjC/vpAnE/zEZO7288aVg5F2cxTHMJwxJCBgv1I9hI+VLmIFhNal3GIFhB9pXMAFzO19ozRuAYSl1VGUCpqL+Nywfw3yX2vzyMc6V3PziMSyNLcKM9OaXj8ntwTA2ofnFY6aM2heP+b2XHW+j5r4735P1+XXpmN8eFiX9uJs2S6MVwxx+Y8esmfxgRC+Gf8qElSNwO6EVc+ZaLiJTcHoxvPM/OgkcF90Y3r1MKfZgRCeG8S5m0Vlw/K0TM3CGMqHgbKJWjMfBuEJnjGbMhoMpBZ8mLBKTi86/LRHT24TpLMJEJ2CAAQaYpWO+DIMbDmb9dAHj4jB7r9h+ZjNyMF2z/Z6ioPxSSjGMrZP4f3gffYx/JEkIwwLFGEd8iRvhtkD1kemEG68Wh9kLYxLCgM0YjEtY+2kMJqes0TIFQxnjmIKJKMu/TMEcR4swIWVa0BSMu7x7M3EMacLGEAxtVGAKprYIE6Q2YUhjT0MwpU0Y2hynaozg4Ix0/iuf0FiHyb+ECW+d6TFOvoX27pdqzG4YhjRN27b1/PbCnWpKv4U296R1qok3O/Nzqolk0TsJyMdMamcZmAMwwAADDDBLwxTAAAMMMMAAAwwwZmO2NmF4C4GAAQYYYIABBhhggAEGGGCAUYixatgsHSOxWNvUMnozYCTWnpz4SrJ8zFaeZWrpSZZWXfmsYwi/2XSRiJlaFJSx3Wasq1PWl+59ZdAtsVvmGWUN89PmZBYFnV6u9aM4a9p6/mbzKM/aNF6b7oQsksu1rgjvuPBEAoVzf7Qjt5CuVSWOrSo+bVdZcKsKtq9WvR7NLKX07drkwKrtJ1YfG4OotVT0MomTo3zLlnn31LlvpvP01XHpKc4zb6bzN0Ey8y5HirY5QhAEQRAEQRAEQRAEQRAEQRDElPwBpBBrRoppEREAAAAASUVORK5CYII=" alt="Facebook-logo">
+            <img src="https://e7.pngegg.com/pngimages/258/274/png-clipart-computer-icons-instagram-black-riviera-instagram-logo-share-icon.png" alt="Instagram-logo">
+        </div>
+        <p>&copy; 2025 Headphones Inc. All rights reserved.</p>
+    </div>
+</footer>
